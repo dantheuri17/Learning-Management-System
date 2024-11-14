@@ -5,23 +5,23 @@ import React from "react";
 
 import MetaComponent from "@/components/common/MetaComponent";
 const metadata = {
-  title:
-    "UI Elements || UpSkill - Education Online Courses LMS Reactjs Template",
-  description: "UpSkill - Education Online Courses LMS Reactjs Template",
+	title:
+		"UI Elements || UpSkill - Education Online Courses LMS Reactjs Template",
+	description: "UpSkill - Education Online Courses LMS Reactjs Template",
 };
 export default function UiElementsPage() {
-  return (
-    <>
-      <MetaComponent meta={metadata} />
-      <div id="wrapper">
-        <div className="tf-top-bar flex items-center justify-center">
-          <p>Intro price. Get UpSkill for Big Sale -95% off.</p>
-        </div>
+	return (
+		<>
+			<MetaComponent meta={metadata} />
+			<div id="wrapper">
+				<div className="tf-top-bar flex items-center justify-center">
+					<p>Ace Your Interview: New Course Now Live!</p>
+				</div>
 
-        <Header1 />
-        <UiElements />
-        <Footer1 />
-      </div>
-    </>
-  );
+				<Header1 />
+				<UiElements />
+				<Footer1 />
+			</div>
+		</>
+	);
 }

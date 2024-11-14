@@ -13,62 +13,62 @@ import React from "react";
 
 import MetaComponent from "@/components/common/MetaComponent";
 const metadata = {
-  title: "About || UpSkill - Education Online Courses LMS Reactjs Template",
-  description: "UpSkill - Education Online Courses LMS Reactjs Template",
+	title: "About || UpSkill - Education Online Courses LMS Reactjs Template",
+	description: "UpSkill - Education Online Courses LMS Reactjs Template",
 };
 export default function AboutPage() {
-  return (
-    <>
-      <MetaComponent meta={metadata} />
-      <div id="wrapper">
-        <div className="tf-top-bar flex items-center justify-center">
-          <p>Intro price. Get UpSkill for Big Sale -95% off.</p>
-        </div>
+	return (
+		<>
+			<MetaComponent meta={metadata} />
+			<div id="wrapper">
+				<div className="tf-top-bar flex items-center justify-center">
+					<p>Ace Your Interview: New Course Now Live!</p>
+				</div>
 
-        <Header1 />
-        <div className="page-title basic">
-          <div className="tf-container full">
-            <div className="row">
-              <div className="col-12">
-                <div className="content text-center">
-                  <ul className="breadcrumbs flex items-center justify-center gap-10">
-                    <li>
-                      <Link to={`/`} className="flex">
-                        <i className="icon-home" />
-                      </Link>
-                    </li>
-                    <li>
-                      <i className="icon-arrow-right" />
-                    </li>
-                    <li>Pages</li>
-                    <li>
-                      <i className="icon-arrow-right" />
-                    </li>
-                    <li>Instructor</li>
-                  </ul>
-                  <h2 className="font-cardo fw-7">About Us</h2>
-                  <h6>
-                    Become an instructor and change lives — including your own
-                  </h6>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+				<Header1 />
+				<div className="page-title basic">
+					<div className="tf-container full">
+						<div className="row">
+							<div className="col-12">
+								<div className="content text-center">
+									<ul className="breadcrumbs flex items-center justify-center gap-10">
+										<li>
+											<Link to={`/`} className="flex">
+												<i className="icon-home" />
+											</Link>
+										</li>
+										<li>
+											<i className="icon-arrow-right" />
+										</li>
+										<li>Pages</li>
+										<li>
+											<i className="icon-arrow-right" />
+										</li>
+										<li>Instructor</li>
+									</ul>
+									<h2 className="font-cardo fw-7">About Us</h2>
+									<h6>
+										Become an instructor and change lives — including your own
+									</h6>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 
-        <div className="main-content pt-0">
-          <About />
-          <Features />
-          <OurVisions />
-          <Facts />
-          <Testimonials parentClass="tf-spacing-5 widget-saying bg-4 page-about" />
-          <div className="tf-spacing-5 pt-0"></div>
-          <Instractors />
-          <Brands />
-          <Banner />
-        </div>
-        <Footer1 />
-      </div>
-    </>
-  );
+				<div className="main-content pt-0">
+					<About />
+					<Features />
+					<OurVisions />
+					<Facts />
+					<Testimonials parentClass="tf-spacing-5 widget-saying bg-4 page-about" />
+					<div className="tf-spacing-5 pt-0"></div>
+					<Instractors />
+					<Brands />
+					<Banner />
+				</div>
+				<Footer1 />
+			</div>
+		</>
+	);
 }

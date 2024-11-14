@@ -5,25 +5,25 @@ import React from "react";
 
 import MetaComponent from "@/components/common/MetaComponent";
 const metadata = {
-  title:
-    "Course Single 3 || UpSkill - Education Online Courses LMS Reactjs Template",
-  description: "UpSkill - Education Online Courses LMS Reactjs Template",
+	title:
+		"Course Single 3 || UpSkill - Education Online Courses LMS Reactjs Template",
+	description: "UpSkill - Education Online Courses LMS Reactjs Template",
 };
 export default function CourseSinglePage3() {
-  return (
-    <>
-      <MetaComponent meta={metadata} />
-      <div id="wrapper">
-        <div className="tf-top-bar flex items-center justify-center">
-          <p>Intro price. Get UpSkill for Big Sale -95% off.</p>
-        </div>
+	return (
+		<>
+			<MetaComponent meta={metadata} />
+			<div id="wrapper">
+				<div className="tf-top-bar flex items-center justify-center">
+					<p>Ace Your Interview: New Course Now Live!</p>
+				</div>
 
-        <Header1 />
-        <div className="main-content main-course-single-v3">
-          <CourseSingle3 />
-        </div>
-        <Footer1 />
-      </div>
-    </>
-  );
+				<Header1 />
+				<div className="main-content main-course-single-v3">
+					<CourseSingle3 />
+				</div>
+				<Footer1 />
+			</div>
+		</>
+	);
 }

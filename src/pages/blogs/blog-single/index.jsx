@@ -17,18 +17,18 @@ export default function BlogSinglePage() {
   const blogItem =
     allBlogs.filter((elm) => elm.id == params.id)[0] || allBlogs[0];
   return (
-    <>
-      <MetaComponent meta={metadata} />
-      <div id="wrapper">
-        <div className="tf-top-bar flex items-center justify-center">
-          <p>Intro price. Get UpSkill for Big Sale -95% off.</p>
-        </div>
+		<>
+			<MetaComponent meta={metadata} />
+			<div id="wrapper">
+				<div className="tf-top-bar flex items-center justify-center">
+					<p>Ace Your Interview: New Course Now Live!</p>
+				</div>
 
-        <Header1 />
+				<Header1 />
 
-        <BlogSingle blogItem={blogItem} />
-        <Footer1 parentClass="footer has-border-top" />
-      </div>
-    </>
-  );
+				<BlogSingle blogItem={blogItem} />
+				<Footer1 parentClass="footer has-border-top" />
+			</div>
+		</>
+	);
 }

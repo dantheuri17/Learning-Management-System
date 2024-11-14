@@ -11,19 +11,19 @@ const metadata = {
 };
 export default function BlogGridPage() {
   return (
-    <>
-      <MetaComponent meta={metadata} />
+		<>
+			<MetaComponent meta={metadata} />
 
-      <div id="wrapper">
-        <div className="tf-top-bar flex items-center justify-center">
-          <p>Intro price. Get UpSkill for Big Sale -95% off.</p>
-        </div>
+			<div id="wrapper">
+				<div className="tf-top-bar flex items-center justify-center">
+					<p>Ace Your Interview: New Course Now Live!</p>
+				</div>
 
-        <Header1 />
-        <PageTitle />
-        <Blogs1 />
-        <Footer1 parentClass="footer has-border-top" />
-      </div>
-    </>
-  );
+				<Header1 />
+				<PageTitle />
+				<Blogs1 />
+				<Footer1 parentClass="footer has-border-top" />
+			</div>
+		</>
+	);
 }

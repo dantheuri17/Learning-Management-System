@@ -14,34 +14,34 @@ import Testimonials from "@/components/homes/home-1/Testimonials";
 
 import MetaComponent from "@/components/common/MetaComponent";
 const metadata = {
-  title: "Home 1 || UpSkill - Education Online Courses LMS Reactjs Template",
-  description: "UpSkill - Education Online Courses LMS Reactjs Template",
+	title: "Home 1 || UpSkill - Education Online Courses LMS Reactjs Template",
+	description: "UpSkill - Education Online Courses LMS Reactjs Template",
 };
 export default function HomePage1() {
-  return (
-    <>
-      <MetaComponent meta={metadata} />
-      <div id="wrapper">
-        <div className="tf-top-bar flex items-center justify-center">
-          <p>Intro price. Get UpSkill for Big Sale -95% off.</p>
-        </div>
+	return (
+		<>
+			<MetaComponent meta={metadata} />
+			<div id="wrapper">
+				<div className="tf-top-bar flex items-center justify-center">
+					<p>Ace Your Interview: New Course Now Live!</p>
+				</div>
 
-        <Header1 />
-        <Hero />
-        <div className="main-content pb-63">
-          <Courses />
-          <Features />
-          <Facts />
-          <Testimonials />
-          <Banner />
-          <Instractors />
-          <BecomeInstactor />
-          <Blogs />
-          <Brands />
-          <Banner2 />
-        </div>
-        <Footer1 />
-      </div>
-    </>
-  );
+				<Header1 />
+				<Hero />
+				<div className="main-content pb-63">
+					<Courses />
+					<Features />
+					<Facts />
+					<Testimonials />
+					<Banner />
+					<Instractors />
+					<BecomeInstactor />
+					<Blogs />
+					<Brands />
+					<Banner2 />
+				</div>
+				<Footer1 />
+			</div>
+		</>
+	);
 }

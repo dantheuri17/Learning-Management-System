@@ -8,45 +8,45 @@ import React from "react";
 
 import MetaComponent from "@/components/common/MetaComponent";
 const metadata = {
-  title:
-    "Student My Course || UpSkill - Education Online Courses LMS Reactjs Template",
-  description: "UpSkill - Education Online Courses LMS Reactjs Template",
+	title:
+		"Student My Course || UpSkill - Education Online Courses LMS Reactjs Template",
+	description: "UpSkill - Education Online Courses LMS Reactjs Template",
 };
 export default function StudentPageMyCourses() {
-  return (
-    <>
-      <MetaComponent meta={metadata} />
-      <div id="wrapper">
-        <div className="tf-top-bar flex items-center justify-center">
-          <p>Intro price. Get UpSkill for Big Sale -95% off.</p>
-        </div>
-        <Header1 />
-        <PageTitle2 />
-        <div className="main-content pt-0">
-          <div className="page-inner tf-spacing-1">
-            <div className="tf-container">
-              <div className="row">
-                <div className="col-xl-3 col-lg-12">
-                  <div className="dashboard_navigationbar">
-                    <div className="dropbtn">
-                      <i className="icon-home" /> Dashboard Navigation
-                    </div>
-                    <div className="instructors-dashboard">
-                      <div className="dashboard-title">
-                        STUDENT DASHBOARD
-                        <DashboardNav2 />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <MyCourses />
-              </div>
-            </div>
-          </div>
-        </div>
+	return (
+		<>
+			<MetaComponent meta={metadata} />
+			<div id="wrapper">
+				<div className="tf-top-bar flex items-center justify-center">
+					<p>Ace Your Interview: New Course Now Live!</p>
+				</div>
+				<Header1 />
+				<PageTitle2 />
+				<div className="main-content pt-0">
+					<div className="page-inner tf-spacing-1">
+						<div className="tf-container">
+							<div className="row">
+								<div className="col-xl-3 col-lg-12">
+									<div className="dashboard_navigationbar">
+										<div className="dropbtn">
+											<i className="icon-home" /> Dashboard Navigation
+										</div>
+										<div className="instructors-dashboard">
+											<div className="dashboard-title">
+												STUDENT DASHBOARD
+												<DashboardNav2 />
+											</div>
+										</div>
+									</div>
+								</div>
+								<MyCourses />
+							</div>
+						</div>
+					</div>
+				</div>
 
-        <Footer1 />
-      </div>
-    </>
-  );
+				<Footer1 />
+			</div>
+		</>
+	);
 }

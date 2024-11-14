@@ -12,18 +12,18 @@ const metadata = {
 };
 export default function BlogListPage1() {
   return (
-    <>
-      <MetaComponent meta={metadata} />
-      <div id="wrapper">
-        <div className="tf-top-bar flex items-center justify-center">
-          <p>Intro price. Get UpSkill for Big Sale -95% off.</p>
-        </div>
+		<>
+			<MetaComponent meta={metadata} />
+			<div id="wrapper">
+				<div className="tf-top-bar flex items-center justify-center">
+					<p>Ace Your Interview: New Course Now Live!</p>{" "}
+				</div>
 
-        <Header1 />
-        <PageTitle title="Blog List 1" />
-        <Blogs2 />
-        <Footer1 parentClass="footer has-border-top" />
-      </div>
-    </>
-  );
+				<Header1 />
+				<PageTitle title="Blog List 1" />
+				<Blogs2 />
+				<Footer1 parentClass="footer has-border-top" />
+			</div>
+		</>
+	);
 }
